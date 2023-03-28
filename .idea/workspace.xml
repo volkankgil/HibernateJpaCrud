@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f33f267b-6ddc-41e1-89d3-2f3621583f9c" name="Changes" comment="csc">
-      <change beforePath="$PROJECT_DIR$/cruddemo/src/main/java/com/luv2code/cruddemo/efef.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fefefvr" beforeDir="false" />
+    <list default="true" id="f33f267b-6ddc-41e1-89d3-2f3621583f9c" name="Changes" comment="progressing">
+      <change afterPath="$PROJECT_DIR$/cruddemo/src/main/java/com/luv2code/cruddemo/dao/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cruddemo/src/main/java/com/luv2code/cruddemo/dao/StudentDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cruddemo/src/main/java/com/luv2code/cruddemo/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruddemo/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cruddemo/src/main/java/com/luv2code/cruddemo/CruddemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cruddemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cruddemo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,11 +31,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
@@ -46,21 +55,23 @@
     </option>
   </component>
   <component name="ProjectId" id="2NSWJrlQdKb6vZozKYmFNKlvGJu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/satınalma2.AYG01/dev-spring-boot/01-spring-boot-overview/spring-boot-hibernate-jpa-crud",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/satınalma2.AYG01/dev-spring-boot/01-spring-boot-overview/spring-boot-hibernate-jpa-crud&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CruddemoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.luv2code.cruddemo.CruddemoApplication" />
@@ -117,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679658681955</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="progressing">
+      <created>1679903785993</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679903785994</updated>
+    </task>
+    <task id="LOCAL-00004" summary="progressing">
+      <created>1679903814043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679903814043</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +158,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="csc" />
-    <option name="LAST_COMMIT_MESSAGE" value="csc" />
+    <MESSAGE value="progressing" />
+    <option name="LAST_COMMIT_MESSAGE" value="progressing" />
   </component>
 </project>
